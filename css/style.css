@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600&family=Open+Sans&display=swap');
+
+*{
+    font-family: 'Bai Jamjuree', sans-serif;
+    
+}
+body{
+    background-color: #f8f9fa;
+}
+
+.bannerBgImage{
+    height: 100vh;
+    background: url("/images/bannerimg.jpg");
+    background-size: cover;
+    position: relative;
+}
+.bannerText{
+    text-align: left;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.bannerTitle{
+    font-size: 4rem;
+}
+.bannerDesc{
+    font-size: 2rem;
+}
+.card{
+    cursor:pointer;
+}
+.card:hover{
+    background-color:  #2196F3;
+    border: 2px solid #9acd32;
+}
+.bicon{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+.img-fluid:hover{
+    border: 2px solid yellowgreen;
+}
+.card-img-top{
+    height:40vh; 
+}
+.h3 fw-bold{
+    color: #0000;
+}
+#certifications {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .certifications-description:hover{
+    background-color:  #2196F3;
+  }
+  
+  .certification-item {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .certification-item img {
+    max-width: 100%;
+    border-radius: 50%;
+  }
+
+  .certification-item img:hover{
+    
+    border: 2px solid #9acd32;
+  }
+  
+  .certification-item h3 {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    
+  }
+  
+  .certification-description {
+    margin-top: 10px;
+    font-size: 16px;
+  }  
+  
+  .tag-cloud {
+  display: inline-block;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 25px;
+  background-color: #2196F3;
+  margin-top: 8px;
+}
+  
